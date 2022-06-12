@@ -48,6 +48,7 @@ namespace DX9Base {
 		void InitializeConsole(const char* ConsoleName);
 		void printdbg(const char* Text, int Color = {}, ...);
 		void scandbg(const char* Text, ...);
+		void LogEvent(std::string TEXT, bool FLAG);
 		void DestroyConsole();
 
 	};

@@ -203,9 +203,6 @@
     <ClCompile Include="libs\MinHook\trampoline.c" />
     <ClCompile Include="Menu.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="notes.md" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

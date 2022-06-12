@@ -25,8 +25,8 @@
 //	EXTERNAL LIBS (ImGui & MinHook)
 #include "libs/ImGui/imgui.h"
 #include "libs/ImGui/imgui_internal.h"
-#include "libs/ImGui/backends/imgui_Impl_dx9.h"
-#include "libs/ImGui/backends/imgui_Impl_Win32.h"
+#include "libs/ImGui/imgui_Impl_dx9.h"
+#include "libs/ImGui/imgui_Impl_Win32.h"
 #include "libs/MinHook/MinHook.h"
 
 /// <summary>
@@ -53,14 +53,18 @@ namespace DX9Base {
 	};
 
 	struct DoubleVector2 {
-		float x, y;
+		double x, y;
 	};
 
 	struct DoubleVector3 {
-		float x, y, z;
+		double x, y, z;
 	};
 
 	struct DoubleVector4 {
-		float x, y, z, a;
+		double x, y, z, a;
+	};
+
+	struct Matrix {
+		float matrix[16];
 	};
 }

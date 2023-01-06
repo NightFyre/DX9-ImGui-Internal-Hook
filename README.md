@@ -6,3 +6,8 @@ https://github.com/NightFyre/COD4-SP-INTERNAL
 
 https://github.com/NightFyre/COD-WAW-INTERNAL-ZOMBIES
 ![image](https://user-images.githubusercontent.com/80198020/173256116-6443cd9c-7332-45e0-94e1-b73c41fda9b1.png)
+
+## External Library Credits
+
+[Dear ImGui](https://github.com/ocornut/imgui)  
+[MinHook](https://github.com/TsudaKageyu/minhook)
